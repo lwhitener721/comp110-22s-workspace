@@ -39,8 +39,14 @@ if character == five_character_word[3]:
 if character == five_character_word[4]:
     letter_count = letter_count + 1
 if letter_count == 1:
-    print(str(letter_count) + " instance of " + character + " in " + str(five_character_word))
+    print(str(letter_count) + " instance of " + character + " found in " + str(five_character_word))
 if letter_count == 0:
-    print("No instances of " + character + " in " + str(five_character_word))
-else: 
-    print(str(letter_count) + " instances of " + character + " in " + str(five_character_word))
+    print("No instances of " + character + " found in " + str(five_character_word))
+if letter_count == 2:
+    print(str(letter_count) + " instances of " + character + " found in " + str(five_character_word))
+if letter_count == 3:
+    print(str(letter_count) + " instances of " + character + " found in " + str(five_character_word))
+if letter_count == 4:
+    print(str(letter_count) + " instances of " + character + " found in " + str(five_character_word))
+if letter_count == 5:
+    print(str(letter_count) + " instances of " + character + " found in " + str(five_character_word))
